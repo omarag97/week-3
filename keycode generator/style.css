@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+.key {
+  background-color: white;
+  border: 5px solid #f2f4f8;
+  display: inline-flex;
+  padding: 40px;
+  margin: 50px;
+  flex-direction: column;
+  min-width: 150px;
+  position: relative;
+  font-size: 25px;
+}
+
+.key small {
+  border: solid lightblue;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #424242;
+  font-size: 18px;
+}

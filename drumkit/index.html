@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drumkit Challenge</title>
+</head>
+<body>
+    <audio id="audioA" controls style="display:none">
+        <source src="sounds/boom.wav"></audio>
+    <audio id="audioS" controls style="display:none">
+        <source src="sounds/clap.wav"></audio>
+    <audio id="audioD" controls style="display:none">
+        <source src="sounds/hihat.wav"></audio>
+    <audio id="audioF" controls style="display:none">
+        <source src="sounds/kick.wav"></audio>
+    <audio id="audioG" controls style="display:none">
+        <source src="sounds/openhat.wav"></audio>
+    <audio id="audioH" controls style="display:none">
+        <source src="sounds/ride.wav"></audio>
+    <audio id="audioJ" controls style="display:none">
+        <source src="sounds/snare.wav"></audio>
+    <audio id="audioK" controls style="display:none">
+        <source src="sounds/tink.wav"></audio>
+    <audio id="audioL" controls style="display:none">
+        <source src="sounds/tom.wav"></audio>
+
+    <div class="container">
+        <div class="box" onclick="audioA.play();">
+            <h2>A</h2>
+            <h2>BOOM</h2>
+        </div>
+        <div class="box" onclick="audioS.play();">
+            <h2>S</h2>
+            <h2>CLAP</h2>
+        </div>
+        <div class="box" onclick="audioD.play();">
+            <h2>D</h2>
+            <h2>HIHAT</h2>
+        </div>
+        <div class="box" onclick="audioF.play();">
+            <h2>F</h2>
+            <h2>KICK</h2>
+        </div>
+        <div class="box" onclick="audioG.play();">
+            <h2>G</h2>
+            <h2>OPENHAT</h2>
+        </div>
+        <div class="box" onclick="audioH.play();">
+            <h2>H</h2>
+            <h2>RIDE</h2>
+        </div>
+        <div class="box" onclick="audioJ.play();">
+            <h2>J</h2>
+            <h2>SNARE</h2>
+        </div>
+        <div class="box" onclick="audioK.play();">
+            <h2>K</h2>
+            <h2>TINK</h2>
+        </div>
+        <div class="box" onclick="audioL.play();">
+            <h2>L</h2>
+            <h2>TOM</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+h1 {
+  padding: 50px;
+  font-size: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: repeat(3, 90px);
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.item {
+  margin: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+.roll {
+  grid-column: 1/4;
+  grid-row: 4/4;
+}
+
+.reset {
+  grid-column: 3/4;
+  grid-row: 4/4;
+}
+
+.current {
+  grid-column: 1/1;
+  grid-row: 5/3;
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: black;
+}
+
+#total {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.dice-container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.msg {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  padding-bottom: 75px;
+  background: transparent;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+}
+
+#diceImgDOM {
+  width: 170px;
+}
+
+.dice-images {
+  align-self: center;
+  justify-self: center;
+}
+
+.no-display {
+  display: none;
+}
